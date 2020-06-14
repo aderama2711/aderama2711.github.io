@@ -67,9 +67,14 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
-  overflow: scroll; 
-
 }
+.page-top::-webkit-scrollbar{
+	display : none;
+}
+.page-top {
+	-ms-overflow-style: none;
+}
+
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
