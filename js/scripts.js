@@ -4,17 +4,7 @@
     * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
     */
 	
-    (function ($) {
-	    //check phone
-	if( navigator.userAgent.match(/Android/i) 
-		|| navigator.userAgent.match(/webOS/i)
-		|| navigator.userAgent.match(/iPhone/i)
-		|| navigator.userAgent.match(/iPad/i)
-		|| navigator.userAgent.match(/iPod/i)
-		|| navigator.userAgent.match(/BlackBerry/i)
-		|| navigator.userAgent.match(/Windows Phone/i)){
-			document.getElementById("page-top").style.overflow: "visible";
-		}	
+    (function ($) {	
     "use strict"; // Start of use strict
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
