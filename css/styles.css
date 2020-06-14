@@ -67,12 +67,10 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  -ms-overflow-style: none;
 }
-.page-top::-webkit-scrollbar{
+body::-webkit-scrollbar{
 	display : none;
-}
-.page-top {
-	-ms-overflow-style: none;
 }
 
 
