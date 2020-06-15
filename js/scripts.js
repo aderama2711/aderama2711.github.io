@@ -41,3 +41,13 @@
         target: "#sideNav",
     });
 })(jQuery); // End of use strict
+function switchtheme() {
+	var x = document.getElementById("button");
+	if (x.innerHTML === "Light") {
+		x.innerHTML = "Dark";
+		document.documentElement.setAttribute('data-theme', 'dark');
+	} else {
+		x.innerHTML = "Light";
+		document.documentElement.setAttribute('data-theme', 'light');
+	}
+}
